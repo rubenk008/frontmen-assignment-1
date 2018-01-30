@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.custom{
+    font-family: montserrat, helvetica, sans-serif;
+    background: #F1F1F1;
+    color: #4D4E4E; 
+    font-weight: 400;
+}
+
+.title{
+    text-align: center;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title h1{
+    font-weight: 500;
+}
+
+.highlight{
+    color: #DD7518;
+    font-weight: 700;
+}
+
+#generate{
+    background: #DD7518;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #DD7518;
+    border-radius: 10px;
+}
+
+#generate:hover {
+    background: #4D4E4E;
+    color: #ffffff;
+    border: 1px solid #4D4E4E;
+}
+
+#generate:focus {
+    outline: none;
+  }
+
+#resultList{
+    margin-top: 1em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+#resultList li::before{
+    font-family: FontAwesome;
+    content: "\f006";
+    font-size: 1.5em;
+    display: inline-block;
+    padding-right: 10px;
+    vertical-align: middle;
+    color: #DD7518
+ }
+ 
+ #resultList li:hover::before{
+     font-family: FontAwesome;
+     content: "\f005";
+     color: #DD7518;
+ }
+
+.list li{
+    padding: 10px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.list > li > input {
+    margin-right: 10px;
+}
+
+#favorites{
+    text-align: center;
+    margin-top: 1.8em;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+}
+
+#favorites li{
+    text-align: left;
+}
+
+#favorites li::before{
+   font-family: FontAwesome;
+   content: "\f014";
+   display: inline-block;
+   padding-right: 10px;
+   vertical-align: middle;
+}
+
+#favorites li:hover::before{
+    color:#DD7518;
+}
+
+
+.favo-container{
+    padding: 10px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 150px;
+    max-width: 800px;
+    background: #ffffff;
+}
+
+.favo-container h3{
+    color: #4D4E4E;
+    font-weight: 600;
+    padding-bottom: 0.6em;
+    border-bottom: 2px solid #4D4E4E;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
